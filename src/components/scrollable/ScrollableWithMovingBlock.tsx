@@ -12,7 +12,7 @@ const ScrollableWithMovingBlock = ({
     const { scrollTop } = e.target;
     // console.log(scrollTop, scrollHeight, clientHeight);
 
-    setPosition(scrollTop);
+    setPosition(scrollTop / 10);
   };
   return (
     <div
